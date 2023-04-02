@@ -1,0 +1,6 @@
+{
+  "mongoUri": "mongodb://localhost:27017/BackAppX",
+  "secretOrkey": "my secret",
+  "Client_URL": "http://localhost:9092",
+  "RESET_PWD_KEY": "accountactivatekey123456789"
+}

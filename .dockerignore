@@ -1,0 +1,12 @@
+# Ignore Node.js modules
+node_modules
+
+# Ignore build artifacts
+build
+dist
+
+# Ignore client build artifacts
+client/build
+
+# Ignore server build artifacts
+server/build
