@@ -14,11 +14,9 @@ Once the server is running, you can access the BackAppX API by sending requests 
 
 ## Using the API
 
-BackAppX provides the following API routes:
+BackAppX provides the following API documentation:
 
-- `/users`: Get a list of all users.
-- `/users/:id`: Get information about a specific user.
-- `/users/create`: Create a new user.
+- `/api-docs`: Get a list of all api routes.
 
 To create a new user, send a POST request to `/users/create` with the following data:
 {
