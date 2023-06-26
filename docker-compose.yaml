@@ -11,7 +11,7 @@ services:
       - ./client:/app/client
       - /app/client/node_modules
     environment:
-      - NODE_ENV=development
+      - NODE_ENV=production
     depends_on:
       - server
   server:
@@ -24,7 +24,7 @@ services:
       - ./server:/app/server
       - /app/server/node_modules
     environment:
-      - NODE_ENV=development
+      - NODE_ENV=production
       - DB_URI=mongodb://localhost:27017/BackAppX
     depends_on:
       - mongo
